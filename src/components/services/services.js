@@ -13,19 +13,19 @@ const Services=()=>{
          <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>User Experience</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>User Interface Design</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Responsive Design</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>User Research</p>
             </li>
            
          </ul>
@@ -37,19 +37,19 @@ const Services=()=>{
          <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Top Notch Websites</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Websites Maintainance</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>SEO Optimization</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Performance Optimization</p>
             </li>
            
          </ul>
@@ -61,19 +61,19 @@ const Services=()=>{
          <ul className='service__list'>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Documentation</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Information Architecture</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Editing and Proofreading</p>
             </li>
             <li>
             <BiCheck className='service__list-icon'/>
-            <p>Lorem spatru dordty</p>
+            <p>Technical Writing</p>
             </li>
            
          </ul>
