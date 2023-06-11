@@ -18,40 +18,40 @@ const Testimonial=()=>{
         >
         <SwiperSlide className='testimonial'>
             <div className='client_avatar'>
-            <img src={Me} alt='client_img'/>
+      <img src={Me} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Emmanuel Saah</h5>
+                <h5 className='client_name'>Nicholas</h5>
             <small className='client__review'>
          Working with Nonso Okeke was very inspiring. He is a dedicated Developer....
             </small>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>
                 <div className='client_avatar'>
-            <img src={Me} alt='client_img'/>
+            <img src={Me}  className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Emmanuel Saah</h5>
+                <h5 className='client_name'>Jordan</h5>
             <small className='client__review'>
          Working with Nonso Okeke was very inspiring. He is a dedicated Developer....
             </small>
             </SwiperSlide>  
             <SwiperSlide className='testimonial'>
                 <div className='client_avatar'>
-            <img src={Me} alt='client_img'/>
+            <img src={Me} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Emmanuel Saah</h5>
+                <h5 className='client_name'>Isaac</h5>
             <small className='client__review'>
          Working with Nonso Okeke was very inspiring. He is a dedicated Developer....
             </small>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>
                 <div className='client_avatar'>
-            <img src={Me} alt='client_img'/>
+            <img src={Me} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Emmanuel Saah</h5>
+                <h5 className='client_name'>Celestina</h5>
             <small className='client__review'>
          Working with Nonso Okeke was very inspiring. He is a dedicated Developer....
             </small>

@@ -3,6 +3,11 @@ headers{
     padding-top:7rem;
     padding-bottom:7rem;
 }
+.about__me-images{
+    border-radius:12rem;
+    width:20rem;
+    height:20rem;
+}
 .header__cointainer{
     height:100%;
     margin-top:4rem;

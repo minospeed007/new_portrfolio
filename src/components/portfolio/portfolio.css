@@ -3,6 +3,12 @@
     grid-template-columns: repeat(3,1fr);
     gap:2.5rem;
 }
+.portfolio-div{
+    margin-bottom:1rem;
+}
+.portforlio__image{
+    border-radius:1rem;
+}
 .portfolio__item-image{
     border-radius:1.5rem;
     overflow:hidden;
