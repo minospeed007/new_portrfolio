@@ -1,4 +1,4 @@
-import Me from '../../assests/happyboy.jpg'
+import Me from '../../assests/me_about.jpg'
 import './about.css'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
@@ -20,12 +20,12 @@ const About=()=>{
                 <article className='about__card'>
                     <FaAward className='about__icon'/>
                 <h5>Experience</h5>
-                <small>3 yrs+ working Experience</small>
+                <small>3yrs+ working Experience</small>
                 </article>
                 <article className='about__card'>
                     <FiUsers className='about__icon'/>
                 <h5>Clients</h5>
-                <small>20+ Clients</small>
+                <small>6+ Clients</small>
                 </article>
                 <article className='about__card'>
                     <VscFolderLibrary className='about__icon'/>
@@ -33,7 +33,9 @@ const About=()=>{
                 <small>10+ Projects</small>
                 </article>
             </div>
-            <p>Hello let's talk about how to bring your amazing idea to reality </p>
+            <p>Do you have a brilliant idea waiting to be brought to life?
+                 Let's join forces and make it happen! Together,
+                 we'll turn your dream into a reality, leaving you as a satisfied and fulfilled client. </p>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>

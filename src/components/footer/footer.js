@@ -1,6 +1,8 @@
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {IoLogoTwitter} from 'react-icons/io'
+import {FaGithub} from 'react-icons/fa'
+
 
 const Footer=()=>{
     return(<>
@@ -17,9 +19,9 @@ const Footer=()=>{
 
 </ul> 
 <div className='footer__socials'>
-    <a href='https://facebook.com'><FaFacebookF/></a>
-    <a href='https://facebook.com'></a>
-    <a href='https://telegram.com'><IoLogoTwitter/></a>
+    <a href='https://web.facebook.com/nonso.okeke'><FaFacebookF/></a>
+    <a href='https://githuh.com/minospeed007' target='_blank'><FaGithub/></a>
+    <a href='https://twitter.com/minospeed007'><IoLogoTwitter/></a>
 
 
     </div> 

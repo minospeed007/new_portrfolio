@@ -27,11 +27,7 @@ const sendEmail=(e)=>{
                 <h5>nnwannemino@gmail.com</h5>
              <a href='mailto:nnwannemino@gmail.com' target='_blank'>Send a message</a>
             </article>
-            <article className='contact__option'>
-                <RiMessengerLine className='contact__option-icon'/>
-                <h4>Messenger</h4>
-                <a href='https://m.me//' target='_blank'>Send a message</a>
-            </article>
+            
             <article className='contact__option'>
                 <BsWhatsapp className='contact__option-icon'/>
                 <h4>Whatsapp</h4>
