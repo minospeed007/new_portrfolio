@@ -8,7 +8,6 @@ import Contact from './components/contact/contact.js'
 import Footer from  './components/footer/footer.js'
 import Testimonial from './components/testimonials/testimonials.js'
 
-
 const App=()=> {
   return (
     

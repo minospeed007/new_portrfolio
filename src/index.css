@@ -32,6 +32,14 @@ body{
   color:var(--color-white);
   line-height: 1.7;
 }
+  nav a{
+      background:green;
+      padding:0.9rem;
+      border-radius:50%;
+      display:flex;
+      color:var(--color-light);
+  }
+  
 
 .container{
   width: var(--container-width-lg);
@@ -67,6 +75,7 @@ a{
 a:hover{
   color: var(--color-white);
 }
+
 .btn{
   width: max-content;
   display: inline-block;
@@ -92,21 +101,14 @@ img{
   border-color:transparent;
 }
 
-@media screen and (max-width:900px) {
-.container{
-  width:var(--container-width-md)
-}
-section{
-  margin-top:6rem;
-}
-}
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1024px) {
   .container{
-    width:var(--container-width-md)
+    width: 100%;
+    
+    margin: 0 auto;
   }
-  section > h2{
-    margin-bottom:2rem;
-  }
-  }
+
+}
 

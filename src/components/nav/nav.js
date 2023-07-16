@@ -10,19 +10,20 @@ const Nav=()=>{
     
     return(<>
     <nav>
-     <a href='#' className={activeNav ==='#' ? 'active': ''} onClick={()=>setActiveNav('#')}><AiOutlineHome/></a>
+ <a href='#' className={activeNav ==='#' ? 'active': ''} onClick={()=>setActiveNav('#')}>
+ <AiOutlineHome className="nav-icon"/></a>
             
     <a href='#about' className={activeNav==='#about' ? 'active': ''}
      onClick={()=>setActiveNav('#about')} >
-            <AiOutlineUser/></a>
+            <AiOutlineUser  className="nav-icon"/></a>
 <a href='#experience' onClick={()=>setActiveNav('#experience')} 
 className={activeNav==='#experience' ? 'active': ''}>
-            <BiBook/></a>
+            <BiBook  className="nav-icon"/></a>
 <a href='#services' onClick={()=>setActiveNav('#services')} 
 className={activeNav ==='#services' ? 'active': ''}>
-            <RiServiceLine/></a>
+            <RiServiceLine  className="nav-icon"/></a>
 <a href='#contact' onClick={()=>setActiveNav('#contact')} className={activeNav==='#contact' ? 'active': ''}>
-<BiMessageSquareDetail/></a>
+<BiMessageSquareDetail className="nav-icon"/></a>
 
 
     </nav>
