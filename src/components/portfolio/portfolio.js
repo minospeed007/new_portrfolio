@@ -22,9 +22,9 @@ const Portfolio=()=>{
     </h5>
     </div>
     <div className='portfolio__item-cta'>
-    <a href='htpps://github.com/minospeed007' className='btn' target='_blank' rel="noreferrer">
+    <a href='https://github.com/minospeed007/cryptocurrency/' className='btn' target='_blank' rel="noreferrer">
      Github</a>
-    <a href='htpps://github.com/minospeed007'className='btn btn-primary'target='_blank' rel="noreferrer">
+    <a href='https://github.com/minospeed007cryptocurrency/'className='btn btn-primary'target='_blank' rel="noreferrer">
      Live Demo</a>
      </div>
     </article>
@@ -40,9 +40,9 @@ const Portfolio=()=>{
     </h5>
     </div>
     <div className='portfolio__item-cta'>
-    <a href='htpps://github.com/minospeed007' className='btn' target='_blank' rel="noreferrer">
+    <a href='htpps://github.com/minospeed007/momobook' className='btn' target='_blank' rel="noreferrer">
      Github</a>
-    <a href='htpps://github.com/minospeed007'className='btn btn-primary'target='_blank' rel="noreferrer">Live Demo</a>
+    <a href='htpps://github.com/minospeed007/momobook'className='btn btn-primary'target='_blank' rel="noreferrer">Live Demo</a>
      </div>
     </article>
     <article className='portfolio__item'>
@@ -57,9 +57,11 @@ const Portfolio=()=>{
     </h5>
     </div>
     <div className='portfolio__item-cta'>
-    <a href='htpps://github.com/minospeed007' className='btn' target='_blank' rel="noreferrer">
+    <a href='htpps://github.com/minospeed007/ecommerce-client' 
+    className='btn' target='_blank' rel="noreferrer">
      Github</a>
-    <a href='htpps://github.com/minospeed007'className='btn btn-primary'target='_blank' rel="noreferrer">
+    <a href='htpps://github.com/minospeed007/e-commerce-backend'
+    className='btn btn-primary'target='_blank' rel="noreferrer">
      Live Demo</a>
      </div>
     </article>
