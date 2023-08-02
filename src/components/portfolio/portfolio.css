@@ -23,7 +23,7 @@ margin-top:1rem;
     .portfolio__child{grid-template-columns:1fr;}
     h3{
         margin-top:1.3rem;
-        font-size:1.5rem;
+        font-size:2.8rem;
     }
     .btn{font-size:1.3rem;}
     .text-light{
@@ -31,5 +31,11 @@ margin-top:1rem;
     }
     .portfolio__item{
         margin-bottom:2rem;
+    }
+}
+@media only screen and (max-width:600px) {
+    h3{
+        margin-top:1.3rem;
+        font-size:1.5rem;
     }
 }

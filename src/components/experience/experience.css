@@ -60,6 +60,38 @@
 
     }
 }
+@media screen and (max-width:830px) {
+    .experience__container{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        gap:1.9rem;
+    }
+    h4{
+        font-size:1.8rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    .experience__content-div{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .experience__container > div h3{
+        margin-bottom:3rem;
+        font-size:2.5rem;
+    }
+    .experience__container > div{
+        width:100%;
+        padding:2rem 1rem;
+        margin-bottom:3rem;
+    }
+}
+
+
+
 @media screen and (max-width:600px) {
     .experience__container{
         display:flex;
@@ -76,6 +108,10 @@
         display:flex;
         justify-content:center;
         align-items:center;
+    }
+    .experience__container > div h3{
+        margin-bottom:3rem;
+        font-size:2rem;
     }
     .experience__container > div{
         width:100%;

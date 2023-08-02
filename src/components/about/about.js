@@ -33,9 +33,12 @@ const About=()=>{
                 <small>10+ Projects</small>
                 </article>
             </div>
-<p classsName='about__p'>Do you have a brilliant idea waiting to be brought to life?
-                 Let's join forces and make it happen! Together,
-                 we'll turn your dream into a reality, leaving you as a satisfied and fulfilled client. </p>
+<p classsName='about__p'>
+    Do you have a brilliant idea waiting to be brought to life?
+    Let's join forces and make it happen! Together,
+ we'll turn your dream into a reality, 
+leaving you as a satisfied and fulfilled client.
+ </p>
             <a href='#contact' className='btn btn-primary'>Let's Talk</a>
             </div>
         </div>

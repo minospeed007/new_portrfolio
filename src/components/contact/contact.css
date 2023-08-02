@@ -97,11 +97,35 @@ input, textarea{
     color:var(--color-white);
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1000px){
     .container .contact__container{
         grid-template-columns:1fr;
         gap:2rem;
     }
+    .contact__option-icon{
+        font-size:4rem;
+    }
+    .btn{
+        height:6rem;
+    }
+    input{
+        height:6rem;
+    }
+    ::placeholder{
+        font-size:2.5rem;
+    }
+    h4{
+        font-size:2.3rem;
+    }
+    h5{
+        font-size:1.9rem;
+    }
+    .contact__option a{
+        margin-top:0.7rem;
+        display:inline-block;
+        font-size:1.8rem;
+    }
+    
     form{
         margin-top:4rem;
     }
@@ -116,6 +140,13 @@ width: var(--container-width-sm);
     h4{
         margin-top:1rem;
         font-size:1.3rem;
+    }
+    h5{
+        font-size:1.3rem;
+    }
+    .contact__option-icon{
+        font-size:2rem;
+        color:var(--color-primary);
     }
     .contact__option a{
         margin-top:0.7rem;

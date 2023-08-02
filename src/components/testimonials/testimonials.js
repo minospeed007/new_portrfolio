@@ -30,7 +30,7 @@ const Testimonial=()=>{
                " Working with Nonso Okeke was truly inspiring.
                  As a dedicated developer, his passion and attention to detail motivated our team.
                   His expertise and unwavering work ethic are commendable.
-                 I recommend him for any development project".
+                ".
             </small>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>

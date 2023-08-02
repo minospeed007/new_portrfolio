@@ -40,15 +40,57 @@
 }
 
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
     .container .testimonial__container{
         width:40%;
+    }
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        background:var(--color-primary);
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .client__img{
+        width:7.5rem;
+        height:7.5rem;
+        border-radius:50%;
+    
+    }
+    .client__reviews{
+        font-size:1.5rem;
+    }
+    .client_name{
+        font-size:2rem;
+    }
+    .client_avatar{
+        width:8rem;
     }
 }
 
 @media screen and (max-width:600px) {
     .container .testimonial__container{
         width:var(--container-width-sm);
+    }
+    
+    .swiper-pagination-clickable .swiper-pagination-bullet {
+        background:var(--color-primary);
+        height:1.2rem;
+        width:1.2rem;
+    }
+    
+    .client__img{
+        width:3.5rem;
+        height:3.5rem;
+        border-radius:50%;
+    
+    }
+    .client__reviews{
+        font-size:1.1rem;
+    }
+    .client_name{
+        font-size:1.5rem;
+    }
+    .client_avatar{
+        width:4rem;
     }
 
     

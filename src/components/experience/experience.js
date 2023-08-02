@@ -14,7 +14,7 @@ const Experience=()=>{
         <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
             <div>
-            <h4>HTML</h4>
+            <h4 className='text-lights'>HTML</h4>
             <small className='text-light'></small>
             </div>
         </article>

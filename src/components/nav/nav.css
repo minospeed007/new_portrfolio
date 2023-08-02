@@ -34,6 +34,14 @@ nav a.active{
 @media screen and (max-width:1000px) {
     nav a{
         background:transparent;
+        padding:1.9rem;
+        
+    }
+    
+}
+@media screen and (max-width:600px) {
+    nav a{
+        background:transparent;
         padding:0.3rem;
         
     }
