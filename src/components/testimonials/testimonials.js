@@ -25,21 +25,21 @@ const Testimonial=()=>{
       <img src={chi} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Chinwendu</h5>
-            <p className='client__review'>
+                <h4 className='client_name'>Chinwendu</h4>
+            <small className='client__reviews'>
                " Working with Nonso Okeke was truly inspiring.
                  As a dedicated developer, his passion and attention to detail motivated our team.
                   His expertise and unwavering work ethic are commendable.
                  I recommend him for any development project".
-            </p>
+            </small>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>
                 <div className='client_avatar'>
             <img src={zahn}  className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Zahn</h5>
-            <p className='client__review'>
+                <h4 className='client_name'>Zahn</h4>
+            <p className='client__reviews'>
             "Nonso Okeke stands out as an exceptional developer.
              His unwavering dedication and remarkable expertise were truly impressive.
               Working alongside him was a constant source of inspiration. 
@@ -57,8 +57,8 @@ const Testimonial=()=>{
             <img src={jesse} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Jesse</h5>
-            <p className='client__review'>
+                <h4 className='client_name'>Jesse</h4>
+            <p className='client__reviews'>
             "Initially, I was skeptical about entrusting Nonso with the development of my e-commerce website.
              However, I decided to give him a chance, and I was truly blown away by the exceptional quality of the job he delivered.
               The website's design and performance are top-notch.
@@ -70,8 +70,8 @@ const Testimonial=()=>{
             <img src={esther} className='client__img' alt='client_img'/>
            
                 </div>
-                <h5 className='client_name'>Esther</h5>
-            <p className='client__review'>
+                <h4 className='client_name'>Esther</h4>
+            <p className='client__reviews'>
                 "I have worked with many developers, 
                 but Nonso stood out as someone who pays attention to details and adheres to schedules.
                  His competence level is what every company, which values expertise, 

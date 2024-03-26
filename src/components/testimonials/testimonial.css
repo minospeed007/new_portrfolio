@@ -19,18 +19,23 @@
 .swiper-pagination-clickable .swiper-pagination-bullet {
     background:var(--color-primary);
 }
-.client__review{
+.client__reviewr{
     color:var(--color-light);
     font-weight:300;
     display:block;
     width:80%;
+    
+
+    
     margin:0.8rem auto 0;
 }
 .testimonial{
     background:var(--color-bg-variant);
     text-align:center;
     padding:2rem;
-    border-radius:1.5rem;
+    
+    width:40%;
+    border-radius:1rem;
     user-select:none;
 }
 
@@ -46,9 +51,5 @@
         width:var(--container-width-sm);
     }
 
-    .client__review{
-        width:var(--container-width-sm);
-        font-size: 3rem;
-
-    }
+    
 }

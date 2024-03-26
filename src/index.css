@@ -33,7 +33,6 @@ body{
   line-height: 1.7;
 }
   nav a{
-      background:green;
       padding:0.9rem;
       border-radius:50%;
       display:flex;
@@ -79,7 +78,6 @@ a:hover{
 .btn{
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
   padding:0.75rem 1.2rem;
   border-radius: 0.4rem;
   transition: var(--transition);
@@ -102,13 +100,21 @@ img{
 }
 
 
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
   .container{
     width: 100%;
     
     margin: 0 auto;
   }
+ 
+  .client_name{
+    font-size:3rem;
+  }
+.client__reviews{
+  font-size: 2rem;
 
 }
 
+}
+
+  
