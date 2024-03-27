@@ -10,7 +10,6 @@ const Contact=()=>{
     const form=useRef();
 const sendEmail=(e)=>{
     e.preventDefault();
-
     emailjs.sendForm('service_2jxawlk','template_tzfscrf', form.current, 'GOdK9VvadFV6OK00N')
     e.target.reset();
    
@@ -24,14 +23,15 @@ const sendEmail=(e)=>{
             <article className='contact__option'>
                 <MdOutlineEmail className='contact__option-icon'/>
                 <h4>Email</h4>
-                <h5>nnwannemino@gmail.com</h5>
-             <a href='mailto:nnwannemino@gmail.com' target='_blank'>Send a message</a>
+                <h5>nwannemino@gmail.com</h5>
+<a  href='mailto:nnwannemino@gmail.com'  target='_blank'>Send a message</a>
             </article>
             
             <article className='contact__option'>
                 <BsWhatsapp className='contact__option-icon'/>
                 <h4>Whatsapp</h4>
- <a href='https://api.whatsapp.com/send?phone=+233598471511' target='_blank'>Send a message</a>
+ <a href='https://api.whatsapp.com/send?phone=+233598471511' 
+  target='_blank'>Send a message</a>
             </article>
             </div>
             <form ref={form} onSubmit={sendEmail}>

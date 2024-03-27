@@ -59,3 +59,77 @@ border-radius:12rem 12rem 0 0;
     background: var(--color-primary);
 }
 
+@media only screen and (max-width:1000px) {
+    .header__socials{
+        display:none;
+    }
+    .scroll__down{
+        display:none;
+    }
+    .about__me{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}
+@media only screen and (max-width:1000px) {
+.about__me{
+        width:60%;
+
+    }
+    .text-light{
+        font-size:2.3rem;
+    }
+    h1{
+        font-size:3.5rem;
+    }
+.about__me-images{
+    width:90%;
+    height:90%;
+
+}
+    .about__image{
+        border-radius:2rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100%;
+        width:100%;
+      
+
+    }
+    
+   
+}
+@media only screen and (max-width:600px) {
+    .about__me{
+            width:60%;
+    
+        }
+        .text-light{
+            font-size:1.3rem;
+        }
+        h1{
+            font-size:2rem;
+        }
+    .about__me-images{
+        width:90%;
+        height:90%;
+    
+    }
+    .btn{
+        height:10%;
+        font-size:1.1rem;
+    }
+        .about__image{
+            border-radius:2rem;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100%;
+            width:100%;
+          
+    
+        }
+       
+    }

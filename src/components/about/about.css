@@ -65,22 +65,46 @@ transform: rotate(0);
     margin-top:2rem 0 2.6rem;
     color:var(--color-light);
 
+
 }
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
     .about__container{
       grid-template-columns: 1fr;
       gap:0;
     }
+    
     .about__content p{
-        margin:1rem 0 1.5rem;
+        margin-top:2rem 0 2.6rem;
+        font-size:2.4rem;
+        color:var(--color-light);
     }
     
+    .about__card small{
+        font-size:1.9rem;
+        color:var(--color-light);
+    }
+    .about__card h5{
+        font-size:2rem;
+    }
     .nav-icon{
         font-size:3rem;
     }
+    .btn{
+        margin-top:2rem;
+        font-size:2rem;
+
+    }
+    .about__cards{
+        margin-bottom:2rem;
+    }
     .about__me{
-        width:50%;
+        width:60%;
         margin:2rem auto 4rem;
+    }
+    .about__icon{
+        color:var(--color-primary);
+        font-size:2.6rem;
+        margin-bottom:1rem;
     }
     
     }
@@ -89,14 +113,34 @@ transform: rotate(0);
         width: 65%;
         margin: 0 auto 3rem;
     }
+    .about__p{
+        font-size:1.2rem;
+    }
     .about__content p{
         margin: 1.5rem 0;
+        font-size:1.3rem;
+
+    }
+    .about__icon{
+        color:var(--color-primary);
+        font-size:1.8rem;
+        margin-bottom:1rem;
     }
     .about__content{
         text-align: center;
     }
+    h2{
+        font-size:1.5rem;
+    }
+    .about__card h5{
+        font-size:1.2rem;
+    }
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
+    }
+    .about__card small{
+        font-size:1rem;
+        color:var(--color-light);
     }
 }

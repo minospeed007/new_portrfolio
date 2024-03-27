@@ -1,5 +1,4 @@
 import './portfolio.css'
-import portfolio from '../../assests/happyboy.jpg'
 import cryptokong from '../../assests/crypto_pic.avif'
 import Afia from '../../assests/e-commerce.jpg'
 import Momobook from '../../assests/momobook.png'

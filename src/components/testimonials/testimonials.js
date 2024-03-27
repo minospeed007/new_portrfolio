@@ -3,11 +3,11 @@ import chi from '../../assests/chinwendu.jpg'
 import jesse from '../../assests/Jesse.jpg'
 import esther from '../../assests/Esther.jpg'
 
-import {Pagination} from 'swiper'
+import {Pagination} from 'swiper/modules';
 import {Swiper, SwiperSlide} from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
-import './testimonial.css'
+import './testimonials.css'
 
 const Testimonial=()=>{
     return(<>
@@ -27,6 +27,9 @@ const Testimonial=()=>{
                 </div>
                 <h4 className='client_name'>Chinwendu</h4>
             <small className='client__reviews'>
+                <h4 className='client_name'>Chinwendu</h4>
+                </small>
+            <small className='client__reviews'>
                " Working with Nonso Okeke was truly inspiring.
                  As a dedicated developer, his passion and attention to detail motivated our team.
                   His expertise and unwavering work ethic are commendable.
@@ -41,9 +44,7 @@ const Testimonial=()=>{
                 <h4 className='client_name'>Zahn</h4>
             <p className='client__reviews'>
             "Nonso Okeke stands out as an exceptional developer.
-             His unwavering dedication and remarkable expertise were truly impressive.
               Working alongside him was a constant source of inspiration. 
-              Not only did he deliver a high-quality job, but he also consistently met all deadlines.
                He is someone you can work with".
 
 
@@ -62,7 +63,6 @@ const Testimonial=()=>{
             "Initially, I was skeptical about entrusting Nonso with the development of my e-commerce website.
              However, I decided to give him a chance, and I was truly blown away by the exceptional quality of the job he delivered.
               The website's design and performance are top-notch.
-             I wholeheartedly recommend Nonso for web project work".
             </p>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>
@@ -75,8 +75,7 @@ const Testimonial=()=>{
                 "I have worked with many developers, 
                 but Nonso stood out as someone who pays attention to details and adheres to schedules.
                  His competence level is what every company, which values expertise, 
-                 would be delighted to have on their team. 
-                He is simply an amazing talent."
+                 would be delighted to have on their team."
             </p>
             </SwiperSlide> 
         </Swiper>
