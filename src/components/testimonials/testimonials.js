@@ -23,18 +23,15 @@ const Testimonial=()=>{
         <SwiperSlide className='testimonial'>
             <div className='client_avatar'>
       <img src={chi} className='client__img' alt='client_img'/>
-           
+
                 </div>
                 <h4 className='client_name'>Chinwendu</h4>
-            <small className='client__reviews'>
-                <h4 className='client_name'>Chinwendu</h4>
-                </small>
-            <small className='client__reviews'>
+            <p className='client__reviews'>
                " Working with Nonso Okeke was truly inspiring.
                  As a dedicated developer, his passion and attention to detail motivated our team.
                   His expertise and unwavering work ethic are commendable.
                  I recommend him for any development project".
-            </small>
+            </p>
             </SwiperSlide>
             <SwiperSlide className='testimonial'>
                 <div className='client_avatar'>

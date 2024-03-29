@@ -1,12 +1,19 @@
 .experience__container{
-    display:grid;
-    grid-template-columns:1fr 1fr;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     gap:2rem;
 }
+.experience__backend-text{
+    text-align:center;
+    color:#1f1f38;
+}
 .experience__container > div {
+    
     background:var(--color-bg-variant);
     padding:2.4rem 5rem;
     border-radius:2rem;
+    width:20rem;
     border:1px solid transparent;
     transition:var(--transition);
 }
@@ -21,7 +28,11 @@
     margin-bottom: 2px;
     color:var(--color-primary);
 }
-
+.front-end-div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
 .experience__content{
     display:grid;
     column-gap:2rem;
@@ -30,6 +41,7 @@
 }
 .experience__details{
     display:flex;
+    
     gap:1rem;
 }
 .experience__details-icon{
