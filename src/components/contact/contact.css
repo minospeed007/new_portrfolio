@@ -1,5 +1,5 @@
 .container .contact__container{
-    width: 58%;
+    width: 50%;
     display:grid;
     grid-template-columns:30% 58%;
     gap:12%;
@@ -144,6 +144,18 @@ width: var(--container-width-sm);
     }
     h5{
         font-size:1.3rem;
+    }
+    .form{
+        width: 95%;
+    }
+    .contact__container{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact__options{
+        width:90%;
     }
     .contact__option-icon{
         font-size:2rem;

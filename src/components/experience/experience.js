@@ -7,10 +7,15 @@ const Experience=()=>{
         <h5>My Skills</h5>
         <h2>My Experience</h2>
         <div className=' experience__container'>
+          
             <div className='front-end-div'>
+            
         <div>
-            <h3>Frontend Skills</h3>
-            <div className='experience__content-div'>
+        <div>
+          <h3>Frontend Skills</h3>
+
+          </div>
+         <div className='experience__content-div'>
         <div className='experience__content'>
         <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>

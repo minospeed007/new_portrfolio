@@ -82,7 +82,7 @@ a:hover{
   border-radius: 0.4rem;
   transition: var(--transition);
   cursor:pointer;
-  border:1px solid var(--color-primary)
+  border:1px solid var(--color-primary);
 }
 img{
   display:block;
@@ -90,6 +90,7 @@ img{
   object-fit:cover;
 }
 .btn-primary{
+  
   background:var(--color-primary);
   color:var(--color-bg)
 }
@@ -100,13 +101,13 @@ img{
 }
 
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:900px) {
   .container{
     width: 100%;
     
     margin: 0 auto;
   }
-
+  
 }
 
   

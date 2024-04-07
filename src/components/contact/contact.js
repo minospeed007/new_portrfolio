@@ -35,6 +35,7 @@ const sendEmail=(e)=>{
             </article>
             </div>
             <div className='gap'></div>
+            <div className='form'>
             <form ref={form} onSubmit={sendEmail}>
                 <input type='text' name='name' placeholder='Your Full Name' required/>
                 <input type='email' name='email' placeholder='Your Email' required/>
@@ -42,6 +43,7 @@ const sendEmail=(e)=>{
                 <button type='submit' className='btn btn-primary'>Send Message</button>
 
             </form>
+            </div>
         </div>
     </section>
     </>)

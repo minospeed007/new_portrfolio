@@ -1,19 +1,22 @@
 .experience__container{
     display:flex;
     align-items:center;
-    justify-content:center;
-    gap:2rem;
+    row-gap:2rem;
+    justify-content: center;
 }
 .experience__backend-text{
     text-align:center;
     color:#1f1f38;
 }
+
 .experience__container > div {
     
     background:var(--color-bg-variant);
     padding:2.4rem 5rem;
     border-radius:2rem;
-    width:20rem;
+    margin:2rem;
+    height:27rem;
+    width:25rem;
     border:1px solid transparent;
     transition:var(--transition);
 }
@@ -25,7 +28,7 @@
 }
 .experience__container > div h3{
     text-align:center;
-    margin-bottom: 2px;
+    margin-bottom: 2rem;
     color:var(--color-primary);
 }
 .front-end-div{
@@ -123,10 +126,10 @@
     }
     .experience__container > div h3{
         margin-bottom:3rem;
-        font-size:2rem;
+        font-size:1.7rem;
     }
     .experience__container > div{
-        width:100%;
+        width:93%;
         padding:2rem 1rem;
     }
 }
