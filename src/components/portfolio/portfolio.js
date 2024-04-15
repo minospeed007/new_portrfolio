@@ -24,8 +24,8 @@ const Portfolio = () => {
                                         news, prices, charts about their favorite crypto coins.
                                     </h5>
                                     <div className='portfolio__item-cta'>
-                                        <a href='https://github.com/minospeed007' className='btn' target='_blank'>Github</a>
-                                        <a href='https://github.com/minospeed007' className='btn btn-primary' target='_blank'>Live Demo</a>
+                                        <a href='https://github.com/minospeed007' className='btn' target='_blank' rel='noreferrer'>Github</a>
+                                        <a href='https://cryptocurrencys.onrender.com' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                                     </div>
                                 </div>
                                 </div>
@@ -46,8 +46,8 @@ const Portfolio = () => {
                                         more efficiently. With Momobook, Vendors will no longer need to record transactions manually into a book.
                                     </h5>
                                     <div className='portfolio__item-cta'>
-                                        <a href='https://github.com/minospeed007' className='btn' target='_blank'>Github</a>
-                                        <a href='https://github.com/minospeed007' className='btn btn-primary' target='_blank'>Live Demo</a>
+                                 <a href='https://github.com/minospeed007' className='btn' target='_blank' rel='noreferrer'>Github</a>
+                                        <a href='https://github.com/minospeed007' className='btn btn-primary' target='_blank'rel='noreferrer'>Live Demo</a>
                                     </div>
                                 </div>
                             </div>
@@ -67,8 +67,8 @@ const Portfolio = () => {
                                         Afia is an Ecommerce website that offers secure and convenient shopping experiences to online shoppers.
                                     </h5>
                                     <div className='portfolio__item-cta'>
-                                        <a href='https://github.com/minospeed007' className='btn' target='_blank'>Github</a>
-                                        <a href='https://github.com/minospeed007' className='btn btn-primary' target='_blank'>Live Demo</a>
+                                        <a href='https://github.com/minospeed007' className='btn' target='_blank' rel='noreferrer'>Github</a>
+                                        <a href='https://github.com/minospeed007' className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                                     </div>
                                 </div>
                             </div>
